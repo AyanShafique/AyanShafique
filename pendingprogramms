@@ -1,0 +1,57 @@
+/******************************************************************************
+
+                            Online C# Compiler.
+                Code, Compile, Run and Debug C# program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+using System;
+
+public class foundstudent{
+    public string found_student(string []arr, string name)
+    {
+    for(int i=0; i<arr.Length; i++)
+    {
+        if(arr[i]==name){
+            Console.WriteLine("Student name has found successfully : The LOA is : "+i);
+        }
+        
+        
+    }
+    
+    return name;
+    }
+     public string (string [] new_arr, string new_name)
+    {
+        for(int i=0; i<new_arr.Length; i++){
+            
+            arr_new[i]=arr[i];
+            
+            if(i==arr.Length)
+            {
+                arr_new[i]= new_student;
+                Console.WriteLine("The name of student has been added successfully:>"+"\n"+"the LOA of new Student is: "+i);
+            }
+        }
+        
+    }
+    return new_name;
+
+}
+class HelloWorld {
+  static void Main() {
+    Console.WriteLine("The Institude of science and techbology</../>");
+    string []students = {"Ayan", "Asif", "Adil","Rohit", "pervaiz","Baneen", "Ahmed"};
+    Console.WriteLine("Write Check to Check the existing Students LOA OR"+"\n"+"Want to add new Student write add :");
+     string  want = Console.ReadLine();
+     if(want=="add"||"Add"||"ADD"||"adD"||"ADd"||"aDD")
+     {
+          
+     }
+    
+    
+    
+  }
+}
+
